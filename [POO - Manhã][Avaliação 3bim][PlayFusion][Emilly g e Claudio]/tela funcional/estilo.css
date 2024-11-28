@@ -1,13 +1,10 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rebeccapurple;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px;
-    height: 150vh;
-    margin-left: 600px;
+
 }
 
 .container {
@@ -16,7 +13,7 @@ body {
     flex-direction: column;
     background-color: #292B2F;
     border-radius: 30px;
-    width: 280px;
+    width: 380px;
     height: 800px;
     text-align: center;
     background-image: url(retangulo.png);

@@ -1,11 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #4c0070;
+
     color: #fff;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    
+ 
   }
   
   .container {      
@@ -13,11 +12,13 @@ body {
     background-color: #6a008f;
     padding: 20px;
     border-radius: 10px;
-    width: 280px;
+    width: 400px;
+    height: 800px;
   }
   
   input, button {
-    width: 100%;
+    width: 300px;
+    height: 29px;
     padding:5px;
     margin: 10px 0;
     border: none;

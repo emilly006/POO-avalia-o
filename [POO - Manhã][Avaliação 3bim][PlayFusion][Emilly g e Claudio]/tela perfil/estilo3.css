@@ -4,9 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 280px; 
-    height: 150vh;
-    margin-left: 600px;
+
 }
 .tela{
     display: flex;
@@ -14,8 +12,7 @@ body{
     justify-content: center ;
     border: solid 10px bla;
     background-color: black;
-       width: 280px; 
-    height: 150vh;
+
     
 }
 .topo{
@@ -113,4 +110,12 @@ body{
     width: 130px;
     height: 124px;
  
+}
+.baixo {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+
 }

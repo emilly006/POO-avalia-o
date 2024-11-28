@@ -6,10 +6,10 @@
     flex-direction: column;
     justify-content:center ;
     align-items: center ;
-    margin-top: 40px;
     gap: 20px;
     background-color: #9c1e94;
-    height: 600px;
+    width: 400px;
+    height: 800px;
     border-radius: 20px;
 }
 .foto{

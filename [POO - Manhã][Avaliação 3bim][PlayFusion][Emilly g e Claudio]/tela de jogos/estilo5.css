@@ -1,5 +1,4 @@
 .body {
-    margin-left: 20px;
 }
 
 .tela {
@@ -7,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #9C1E94;
-    width: 430px;
+    width: 400px;
     border-radius: 15px;
 }
 
@@ -103,4 +102,12 @@
     height: 180px;
     width: 370px;
     height: 180px;
+}
+.baixo {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+
 }
