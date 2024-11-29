@@ -1,22 +1,33 @@
-.body{
+.body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
-.tela{
+
+.tela {
     display: flex;
     flex-direction: column;
-    justify-content:center ;
-    align-items: center ;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     background-color: #9c1e94;
     width: 400px;
     height: 800px;
     border-radius: 20px;
+    background-image: url(ondass.svg), url(ondas3.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+
 }
-.foto{
+
+.foto {
     width: 314px;
     height: 163px;
 }
-.entrar{
+
+.entrar {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,8 +35,9 @@
     padding: 10px;
     gap: 20px;
 }
-.button{
-    font-size: 48px ;
+
+.button {
+    font-size: 48px;
     border-radius: 10px;
     background-color: #9c1e94;
     color: white;
@@ -33,10 +45,11 @@
     height: 59px;
     border: solid 1px white;
 }
-.register{
+
+.register {
     font-size: 24px;
     background-color: #9c1e94;
     border: solid 1px #9c1e94;
-    border-bottom:solid 1px white;
+    border-bottom: solid 1px white;
     color: white;
 }

@@ -15,14 +15,15 @@ body {
     padding: 35px;
     border-radius: 10px;
     width: 280px; 
-    height: 600px;
-    
-  }
+    height: 500px;
+    background-image: url(ondass.svg), url(ondas3.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom; 
+    }
   
   input, button {
     width: 100%;
     margin: 10px 0;
-
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -41,5 +42,5 @@ body {
     text-decoration: none;
     font-size: 0.9rem;
     display: block;
-    margin-top: 5px;
+  
   }
